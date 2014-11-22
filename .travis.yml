@@ -11,7 +11,7 @@ after_script:
   # Install the Heroku package (or the Heroku toolbelt)
   - npm install heroku
   # Add your Heroku git repo:
-  - git remote add heroku git@heroku.com:germ-tracker.git
+  - git remote add heroku git@heroku.com:germ-theory.git
   # Turn off warnings about SSH keys:
   - echo "Host heroku.com" >> ~/.ssh/config
   - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
